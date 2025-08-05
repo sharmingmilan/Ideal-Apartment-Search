@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f74e82b8afcdd39e67d2e1b8d9f68344 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f74e82b8afcdd39e67d2e1b8d9f68344" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f74e82b8afcdd39e67d2e1b8d9f68344 = L.map(
+                "map_f74e82b8afcdd39e67d2e1b8d9f68344",
+                {
+                    center: [34.0269636, -118.4140646],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ce8bbb12f6e7d854bf69f744e43449a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1ce8bbb12f6e7d854bf69f744e43449a.addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var marker_ca23ce6a005278d8c5492002a4e3f3fe = L.marker(
+                [34.0269636, -118.4140646],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_c6c27b458e0eef1b5581287a2b9fa96a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10a6b69bd161065d3247245b8d3d6861 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e12f4455cb41c800d84c8b2711e3621 = $(`<div id="html_6e12f4455cb41c800d84c8b2711e3621" style="width: 100.0%; height: 100.0%;">Pacific Rose<br>Price: $3335</div>`)[0];
+                popup_10a6b69bd161065d3247245b8d3d6861.setContent(html_6e12f4455cb41c800d84c8b2711e3621);
+            
+        
+
+        marker_ca23ce6a005278d8c5492002a4e3f3fe.bindPopup(popup_10a6b69bd161065d3247245b8d3d6861)
+        ;
+
+        
+    
+    
+                marker_ca23ce6a005278d8c5492002a4e3f3fe.setIcon(icon_c6c27b458e0eef1b5581287a2b9fa96a);
+            
+    
+            var marker_357507ce4de987bc01060221b81fa561 = L.marker(
+                [41.8919322, -93.3996546],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_71cc2b1848d7fe41d50c59353799f47d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_826a79a89ab0e46514c9b08c7ebf84ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4835eb05701001c9f9ea9c2971edf111 = $(`<div id="html_4835eb05701001c9f9ea9c2971edf111" style="width: 100.0%; height: 100.0%;">Maxwell<br>Price: $3857</div>`)[0];
+                popup_826a79a89ab0e46514c9b08c7ebf84ac.setContent(html_4835eb05701001c9f9ea9c2971edf111);
+            
+        
+
+        marker_357507ce4de987bc01060221b81fa561.bindPopup(popup_826a79a89ab0e46514c9b08c7ebf84ac)
+        ;
+
+        
+    
+    
+                marker_357507ce4de987bc01060221b81fa561.setIcon(icon_71cc2b1848d7fe41d50c59353799f47d);
+            
+    
+            var marker_3a42ece8a38c823eb3893d7b9403e518 = L.marker(
+                [34.0280213, -118.4327004],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_784f42866ec1a05601509f990f1488a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fb7870f840676527b0034f1484337d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67d35fca1d01df2c0018027f3755afe6 = $(`<div id="html_67d35fca1d01df2c0018027f3755afe6" style="width: 100.0%; height: 100.0%;">2820 Sawtelle Blvd<br>Price: $3148</div>`)[0];
+                popup_2fb7870f840676527b0034f1484337d1.setContent(html_67d35fca1d01df2c0018027f3755afe6);
+            
+        
+
+        marker_3a42ece8a38c823eb3893d7b9403e518.bindPopup(popup_2fb7870f840676527b0034f1484337d1)
+        ;
+
+        
+    
+    
+                marker_3a42ece8a38c823eb3893d7b9403e518.setIcon(icon_784f42866ec1a05601509f990f1488a3);
+            
+    
+            var marker_77122563e31186d42b5951a6a870caa8 = L.marker(
+                [51.5066192, -0.1429113],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_52c357c5401f039854e1eb8d1f4df223 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99a93c817d38ba03501f07900d2f2119 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_212715c8d61efdfe577b45e39de66d4d = $(`<div id="html_212715c8d61efdfe577b45e39de66d4d" style="width: 100.0%; height: 100.0%;">Green Park<br>Price: $3350</div>`)[0];
+                popup_99a93c817d38ba03501f07900d2f2119.setContent(html_212715c8d61efdfe577b45e39de66d4d);
+            
+        
+
+        marker_77122563e31186d42b5951a6a870caa8.bindPopup(popup_99a93c817d38ba03501f07900d2f2119)
+        ;
+
+        
+    
+    
+                marker_77122563e31186d42b5951a6a870caa8.setIcon(icon_52c357c5401f039854e1eb8d1f4df223);
+            
+    
+            var marker_c1767f973af7fb9c1fd16941fdaf0540 = L.marker(
+                [40.3678472, -79.9172723],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_f1d56c21575c337afa545c5abd27bd96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5c1030f8ba4729f37c6083025368367 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ce323be0a6103451790144b6da452d1 = $(`<div id="html_8ce323be0a6103451790144b6da452d1" style="width: 100.0%; height: 100.0%;">Lincoln Place<br>Price: $3806</div>`)[0];
+                popup_f5c1030f8ba4729f37c6083025368367.setContent(html_8ce323be0a6103451790144b6da452d1);
+            
+        
+
+        marker_c1767f973af7fb9c1fd16941fdaf0540.bindPopup(popup_f5c1030f8ba4729f37c6083025368367)
+        ;
+
+        
+    
+    
+                marker_c1767f973af7fb9c1fd16941fdaf0540.setIcon(icon_f1d56c21575c337afa545c5abd27bd96);
+            
+    
+            var marker_6c9318d81e85c788d43f26a830aaff4d = L.marker(
+                [34.0414101, -118.4693388],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_b366a7c99ccad6a4aebbf6c36afe26ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22dcf5dfe7112bca014c5d26588d9e58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00f36f21cc0581a89b5c36bae49a4ef4 = $(`<div id="html_00f36f21cc0581a89b5c36bae49a4ef4" style="width: 100.0%; height: 100.0%;">1242 McClellan<br>Price: $3395</div>`)[0];
+                popup_22dcf5dfe7112bca014c5d26588d9e58.setContent(html_00f36f21cc0581a89b5c36bae49a4ef4);
+            
+        
+
+        marker_6c9318d81e85c788d43f26a830aaff4d.bindPopup(popup_22dcf5dfe7112bca014c5d26588d9e58)
+        ;
+
+        
+    
+    
+                marker_6c9318d81e85c788d43f26a830aaff4d.setIcon(icon_b366a7c99ccad6a4aebbf6c36afe26ab);
+            
+    
+            var marker_ae6af1799f7cd5ca0557ed984162082b = L.marker(
+                [37.296627, -120.5003685],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_b05c0e080db7f03f86c4800505531324 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e61cdfd694e7b9dfad2e25955c0615e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39a9032a8f273b25fbf7eda88fcb0a2d = $(`<div id="html_39a9032a8f273b25fbf7eda88fcb0a2d" style="width: 100.0%; height: 100.0%;">Seventh West Apartments<br>Price: $3625</div>`)[0];
+                popup_7e61cdfd694e7b9dfad2e25955c0615e.setContent(html_39a9032a8f273b25fbf7eda88fcb0a2d);
+            
+        
+
+        marker_ae6af1799f7cd5ca0557ed984162082b.bindPopup(popup_7e61cdfd694e7b9dfad2e25955c0615e)
+        ;
+
+        
+    
+    
+                marker_ae6af1799f7cd5ca0557ed984162082b.setIcon(icon_b05c0e080db7f03f86c4800505531324);
+            
+    
+            var marker_7b006167acc0ca272befa6f1af40fb8f = L.marker(
+                [45.8847708, 10.8396942],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_69912d1fce3a6ed5428e5c7e10eed5fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_121d61b941eb1d52200b6052691ab5d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_734e2cf829e86e89f057f4d967f388a0 = $(`<div id="html_734e2cf829e86e89f057f4d967f388a0" style="width: 100.0%; height: 100.0%;">Riva<br>Price: $3749</div>`)[0];
+                popup_121d61b941eb1d52200b6052691ab5d4.setContent(html_734e2cf829e86e89f057f4d967f388a0);
+            
+        
+
+        marker_7b006167acc0ca272befa6f1af40fb8f.bindPopup(popup_121d61b941eb1d52200b6052691ab5d4)
+        ;
+
+        
+    
+    
+                marker_7b006167acc0ca272befa6f1af40fb8f.setIcon(icon_69912d1fce3a6ed5428e5c7e10eed5fd);
+            
+    
+            var marker_066f02d9e6e97ce9209eea7fbea3c9c8 = L.marker(
+                [30.416242, -97.7437413],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_8a74fd4f2a361858967611b7a92c3c3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c0e9cb419ce4c4954be44dd4edc46dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cbad5c98e3bfd139b9712de608e82c6 = $(`<div id="html_2cbad5c98e3bfd139b9712de608e82c6" style="width: 100.0%; height: 100.0%;">Keystone Apartments<br>Price: $3095</div>`)[0];
+                popup_0c0e9cb419ce4c4954be44dd4edc46dd.setContent(html_2cbad5c98e3bfd139b9712de608e82c6);
+            
+        
+
+        marker_066f02d9e6e97ce9209eea7fbea3c9c8.bindPopup(popup_0c0e9cb419ce4c4954be44dd4edc46dd)
+        ;
+
+        
+    
+    
+                marker_066f02d9e6e97ce9209eea7fbea3c9c8.setIcon(icon_8a74fd4f2a361858967611b7a92c3c3a);
+            
+    
+            var marker_e6811f848d2787eb4075078aa0bc6cd1 = L.marker(
+                [45.341858, -75.7626829],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_6f28c4b18d38a471bdcbb0c36a83a004 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ab40525f15d59b154987a0646c4b2fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2237137a4bbe39a4ce6e9b0c5b3daed0 = $(`<div id="html_2237137a4bbe39a4ce6e9b0c5b3daed0" style="width: 100.0%; height: 100.0%;">CentrePointe Apartments<br>Price: $3695</div>`)[0];
+                popup_9ab40525f15d59b154987a0646c4b2fa.setContent(html_2237137a4bbe39a4ce6e9b0c5b3daed0);
+            
+        
+
+        marker_e6811f848d2787eb4075078aa0bc6cd1.bindPopup(popup_9ab40525f15d59b154987a0646c4b2fa)
+        ;
+
+        
+    
+    
+                marker_e6811f848d2787eb4075078aa0bc6cd1.setIcon(icon_6f28c4b18d38a471bdcbb0c36a83a004);
+            
+    
+            var marker_26fd30524ce91ae19674305f484604ef = L.marker(
+                [34.0491287, -118.4201333],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_1b5878627674c705dec1972c9b79b639 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abe95aa1e0bb7bc48221e3ad09a09aaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_257b3b1855e24cb6b23dcb52e03381f9 = $(`<div id="html_257b3b1855e24cb6b23dcb52e03381f9" style="width: 100.0%; height: 100.0%;">2245 Beverly Glen<br>Price: $3698</div>`)[0];
+                popup_abe95aa1e0bb7bc48221e3ad09a09aaf.setContent(html_257b3b1855e24cb6b23dcb52e03381f9);
+            
+        
+
+        marker_26fd30524ce91ae19674305f484604ef.bindPopup(popup_abe95aa1e0bb7bc48221e3ad09a09aaf)
+        ;
+
+        
+    
+    
+                marker_26fd30524ce91ae19674305f484604ef.setIcon(icon_1b5878627674c705dec1972c9b79b639);
+            
+    
+            var marker_ddd7d187ced63f9446bdb2bbd2343f5a = L.marker(
+                [34.0305072, -118.3955051],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_42dd8f35f7bb7fe582307fdf6397ff0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62162335fff5947d6f1ee6cab454e4a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4381bd8d1241b28bb6f1ce7f2a63e5d4 = $(`<div id="html_4381bd8d1241b28bb6f1ce7f2a63e5d4" style="width: 100.0%; height: 100.0%;">The Culver<br>Price: $3795</div>`)[0];
+                popup_62162335fff5947d6f1ee6cab454e4a4.setContent(html_4381bd8d1241b28bb6f1ce7f2a63e5d4);
+            
+        
+
+        marker_ddd7d187ced63f9446bdb2bbd2343f5a.bindPopup(popup_62162335fff5947d6f1ee6cab454e4a4)
+        ;
+
+        
+    
+    
+                marker_ddd7d187ced63f9446bdb2bbd2343f5a.setIcon(icon_42dd8f35f7bb7fe582307fdf6397ff0b);
+            
+    
+            var marker_26148882791705d5c95337f87f215f3a = L.marker(
+                [34.2627912, -118.4986203],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_99c6cdd87c0360c11c35e6a1e27d3e1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5c1dd48133234cfd7ada591e2cadfbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe996a83582d289062dc69852f477da8 = $(`<div id="html_fe996a83582d289062dc69852f477da8" style="width: 100.0%; height: 100.0%;">Casa Granada<br>Price: $3786</div>`)[0];
+                popup_b5c1dd48133234cfd7ada591e2cadfbf.setContent(html_fe996a83582d289062dc69852f477da8);
+            
+        
+
+        marker_26148882791705d5c95337f87f215f3a.bindPopup(popup_b5c1dd48133234cfd7ada591e2cadfbf)
+        ;
+
+        
+    
+    
+                marker_26148882791705d5c95337f87f215f3a.setIcon(icon_99c6cdd87c0360c11c35e6a1e27d3e1c);
+            
+    
+            var marker_4e4166ef07246c96a4582ec3cf9dd51b = L.marker(
+                [12.9733476, 77.602871],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_320f4a2b35c8acb8b582f8f3b897c583 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d53b648ae6a1e382044761b6e332ed62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_755d630d945d94d8656991ac0814bfb8 = $(`<div id="html_755d630d945d94d8656991ac0814bfb8" style="width: 100.0%; height: 100.0%;">Museum Terrace<br>Price: $3800</div>`)[0];
+                popup_d53b648ae6a1e382044761b6e332ed62.setContent(html_755d630d945d94d8656991ac0814bfb8);
+            
+        
+
+        marker_4e4166ef07246c96a4582ec3cf9dd51b.bindPopup(popup_d53b648ae6a1e382044761b6e332ed62)
+        ;
+
+        
+    
+    
+                marker_4e4166ef07246c96a4582ec3cf9dd51b.setIcon(icon_320f4a2b35c8acb8b582f8f3b897c583);
+            
+    
+            var marker_93ffb5ad688784098b06aaeb06f1106e = L.marker(
+                [48.167483, 17.152804],
+                {
+}
+            ).addTo(map_f74e82b8afcdd39e67d2e1b8d9f68344);
+        
+    
+            var icon_ccb134525b779ed7a4cd5eb112415685 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6e88a73fc5ae4a6538919af6d9402d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb56835e59180a8ec307bd2665fa97aa = $(`<div id="html_eb56835e59180a8ec307bd2665fa97aa" style="width: 100.0%; height: 100.0%;">Olivia Residence<br>Price: $3450</div>`)[0];
+                popup_f6e88a73fc5ae4a6538919af6d9402d1.setContent(html_eb56835e59180a8ec307bd2665fa97aa);
+            
+        
+
+        marker_93ffb5ad688784098b06aaeb06f1106e.bindPopup(popup_f6e88a73fc5ae4a6538919af6d9402d1)
+        ;
+
+        
+    
+    
+                marker_93ffb5ad688784098b06aaeb06f1106e.setIcon(icon_ccb134525b779ed7a4cd5eb112415685);
+            
+</script>
+</html>
